@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "IconView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    IconView *iconV = [[IconView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:iconV];
+    iconV.backgroundColor = [UIColor clearColor];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

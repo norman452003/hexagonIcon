@@ -14,6 +14,8 @@
 		94BE74F31B9F29E400E15B10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BE74F21B9F29E400E15B10 /* Images.xcassets */; };
 		94BE74F61B9F29E400E15B10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94BE74F41B9F29E400E15B10 /* LaunchScreen.xib */; };
 		94BE75021B9F29E400E15B10 /* IconDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BE75011B9F29E400E15B10 /* IconDemoTests.m */; };
+		94BE750D1B9F29FE00E15B10 /* IconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BE750C1B9F29FE00E15B10 /* IconView.m */; };
+		94BE750F1B9F2A5300E15B10 /* u=2205791892,1328528914&fm=116&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94BE750E1B9F2A5300E15B10 /* u=2205791892,1328528914&fm=116&gp=0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		94BE74FB1B9F29E400E15B10 /* IconDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BE75001B9F29E400E15B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94BE75011B9F29E400E15B10 /* IconDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconDemoTests.m; sourceTree = "<group>"; };
+		94BE750B1B9F29FE00E15B10 /* IconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconView.h; sourceTree = "<group>"; };
+		94BE750C1B9F29FE00E15B10 /* IconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconView.m; sourceTree = "<group>"; };
+		94BE750E1B9F2A5300E15B10 /* u=2205791892,1328528914&fm=116&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=2205791892,1328528914&fm=116&gp=0.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +90,12 @@
 				94BE74EA1B9F29E400E15B10 /* AppDelegate.m */,
 				94BE74EC1B9F29E400E15B10 /* ViewController.h */,
 				94BE74ED1B9F29E400E15B10 /* ViewController.m */,
+				94BE750B1B9F29FE00E15B10 /* IconView.h */,
+				94BE750C1B9F29FE00E15B10 /* IconView.m */,
 				94BE74EF1B9F29E400E15B10 /* Main.storyboard */,
 				94BE74F21B9F29E400E15B10 /* Images.xcassets */,
 				94BE74F41B9F29E400E15B10 /* LaunchScreen.xib */,
+				94BE750E1B9F2A5300E15B10 /* u=2205791892,1328528914&fm=116&gp=0.jpg */,
 				94BE74E51B9F29E400E15B10 /* Supporting Files */,
 			);
 			path = IconDemo;
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BE750F1B9F2A5300E15B10 /* u=2205791892,1328528914&fm=116&gp=0.jpg in Resources */,
 				94BE74F11B9F29E400E15B10 /* Main.storyboard in Resources */,
 				94BE74F61B9F29E400E15B10 /* LaunchScreen.xib in Resources */,
 				94BE74F31B9F29E400E15B10 /* Images.xcassets in Resources */,
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94BE74EE1B9F29E400E15B10 /* ViewController.m in Sources */,
+				94BE750D1B9F29FE00E15B10 /* IconView.m in Sources */,
 				94BE74EB1B9F29E400E15B10 /* AppDelegate.m in Sources */,
 				94BE74E81B9F29E400E15B10 /* main.m in Sources */,
 			);
